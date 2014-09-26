@@ -1,3 +1,68 @@
-<% @applicants.each do |applicant| %>
-	<%= applicant.name %>
-<% end %>
+<div class="welcome">
+	<h1>Applicant Tracking System
+	<%= link_to 'New Applicant', new_applicant_path, id: "new_btn" %>
+	</h1>
+</div>
+
+	
+	<div class="container">
+
+	<div class="container-body">
+
+
+
+
+
+    <div class="bucket">
+      <h2>Sourcing</h2>
+      <ul>
+      	<% @sourcing_applicants.each do |applicant| %>
+			<li><%= link_to applicant.name, applicant %></li>
+		<% end %>
+      </ul>
+    </div>
+
+
+
+
+     <div class="bucket">
+      <h2>Prescreen</h2>
+      <ul>
+        <% @prescreen_applicants.each do |applicant| %>
+			<li><%= link_to applicant.name, applicant %></li>
+			<% end %>
+      </ul>
+    </div>
+
+
+
+
+     <div class="bucket">
+      <h2>Sample Teach</h2>
+      <ul>
+         <% @sampleteach_applicants.each do |applicant| %> 
+         	<li><%= link_to applicant.name, applicant %></li>
+         	<% end %> 
+      </ul>
+    </div>
+
+
+     <div class="bucket">
+      <h2>Debrief</h2>
+      <ul>
+        <% @debrief_applicants.each do |applicant| %> 
+        	<li><%= link_to applicant.name, applicant %></li>
+        	<% end %>
+      </ul>
+    </div>
+
+     <div class="bucket">
+      <h2>Offer</h2>
+      <ul>
+        <% @offer_applicants.each do |applicant| %> 
+        	<li><%= link_to applicant.name, applicant %></li>
+        	<% end %>
+      </ul>
+    </div>
+
+  </div></div>

@@ -2,11 +2,15 @@
 <html>
 <head>
   <title>ApplicantTrackingSystem</title>
+  <link rel="stylesheet" href="http://necolas.github.io/normalize.css/3.0.1/normalize.css">
+  <link href='http://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+
+<div class="header"><%= image_tag "ga.png", class: 'galogo' %></div>
 
 <%= yield %>
 

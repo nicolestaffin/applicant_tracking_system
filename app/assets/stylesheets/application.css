@@ -13,3 +13,120 @@
  *= require_tree .
  *= require_self
  */
+*{
+	box-sizing: border-box;
+
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+	max-height: 100%
+
+
+
+
+}
+
+body {
+	background-color: white;
+
+
+
+}
+
+.header {
+	background-color: black;
+	height: 50px;
+	padding: .5rem;
+}
+
+
+
+.container {
+	max-width: 95%;
+	margin: 0 auto;
+}
+
+.bucket ul {
+	padding: 0;
+}
+
+.bucket h2 {
+	white-space: nowrap;
+	font-size: 1.25rem;
+	text-align: center;
+	font-family: Oswald;
+
+}
+
+.welcome {
+	background-color: #ececec;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	border-bottom: 1px solid #b3b3b3;
+
+
+
+
+}
+
+.welcome h1{
+	font-family: Oswald;
+	font-size: 3rem;
+	max-width: 95%;
+	margin: 0 auto;
+
+
+}
+
+
+
+.bucket li {
+
+	color: black;
+	background-color: white;
+	list-style: none;
+	margin-bottom: 1rem;
+	padding: 1rem;
+	box-shadow: 2px 2px 6px rgba(0,0,0,.50);
+
+
+}
+.bucket {
+	margin: 1rem;
+	padding: 1rem;
+
+
+}
+
+
+
+@media (min-width: 900px) {
+	.container-body {
+		display: flex;
+
+}
+
+}
+
+
+
+
+.bucket li, .bucket div {
+	border-radius: .25rem;
+
+
+}
+
+#new_btn {
+	float: right;
+	font-size: 40%;
+	text-decoration: none;
+	color: red;
+	margin-top: -35px;
+	margin-right: -1rem;
+	box-shadow: 3px;
+}
+
+

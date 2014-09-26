@@ -1,0 +1,11 @@
+<h1><%= @applicant.name %></h1>
+<p>Years of Experience: <%= @applicant.years_experience %></p>
+<p>Current Employer: <%= @applicant.current_employer %></p>
+<p>Teaching Experience: <%= @applicant.teaching_experience %></p>
+<p>LinkedIn: <%= @applicant.website_URL %></p>
+<p>Stage: <%= @applicant.stage.humanize %></p>
+
+
+
+
+<%= link_to "Edit", edit_applicant_path(@applicant) %>

@@ -1,0 +1,31 @@
+<%= form_for @applicant do |f| %>
+  <div>
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+  </div>
+  <div>
+  <%= f.label :years_experience %>
+  <%= f.number_field :years_experience %>
+  </div>
+  <div>
+  <%= f.label :current_employer %>
+  <%= f.text_field :current_employer %>
+  </div>
+  
+  <div>
+  <%= f.label :teaching_experience %>
+  <%= f.text_field :teaching_experience %> 
+  </div>
+
+  <div>
+  <%= f.label :website_URL %>
+  <%=f.text_field :website_URL %> 
+  </div>
+
+  <div>
+  <%= f.label :stage %>
+  <%=f.select :stage, options_for_select([['Sourcing', 'sourcing'], ['Prescreen', 'pre_screen'], ['Sample Teach', 'sample_teach'], ['Debrief', 'debrief'], ['Offer', 'offer']], @applicant.stage)%> 
+  </div>
+
+  <%= f.submit %>
+<% end %>
