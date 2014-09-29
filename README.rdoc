@@ -1,7 +1,7 @@
 == README
 
 
-Is this like where you thank people who helped you buid stuff? 
+Is this where you thank people who helped you build the stuffs? 
 
 If so, I'd like to thank the following people who helped build this applicant tracking system: Tedi Konda, Corey Speisman, Chris Coleman, Mikeal Davis, Peter Lai. 
 
