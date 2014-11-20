@@ -1,2 +1,2 @@
-Wanted to create a basic applicant tracking system that made my day job easier. 
+Wanted to create a basic applicant tracking system that makes my day job easier. 
 
